@@ -1,0 +1,65 @@
+/* App.css */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Forms.css */
+
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.checkbox-container label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: #3498db; /* A nice blue color */
+  color: #ffffff; /* White text color */
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.submit-button:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
